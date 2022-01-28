@@ -169,7 +169,7 @@ M.load_syntax = function(palette)
       fg = palette.base5,
     },
     Visual = {
-      bg = palette.base6,
+      bg = palette.base5,
     },
     VisualNOS = {
       bg = palette.base3,
