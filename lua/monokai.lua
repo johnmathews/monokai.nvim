@@ -369,7 +369,7 @@ M.load_syntax = function(palette)
       fg = palette.orange,
     },
     Comment = {
-      fg = palette.base6,
+      fg = palette.aqua,
       style = 'italic',
     },
     Underlined = {
