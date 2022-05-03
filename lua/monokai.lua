@@ -625,7 +625,8 @@ M.load_plugin_syntax = function(palette)
 
     -- Telescope
     TelescopeBorder = {
-      fg = palette.base7,
+      -- fg = palette.base7,
+      fg = palette.green,
     },
     TelescopeNormal = {
       fg = palette.base8,
