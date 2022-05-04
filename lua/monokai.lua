@@ -656,6 +656,9 @@ M.load_plugin_syntax = function(palette)
     ansible_extra_keywords = {
       fg = palette.green,      
     },
+    ansible_extra_special_keywords = {
+      fg = palette.green,      
+    },
     ansible_loop_keywords = {
       fg = palette.orange,      
     },
