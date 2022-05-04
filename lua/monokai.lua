@@ -648,16 +648,16 @@ M.load_plugin_syntax = function(palette)
         
     -- ansible 
     ansible_name = {
-      fg = palatte.red,      
+      fg = palette.red,      
     },
     ansible_normal_keywords = {
-      fg = palatte.aqua,      
+      fg = palette.aqua,      
     },
     ansible_extra_keywords = {
-      fg = palatte.green,      
+      fg = palette.green,      
     },
     ansible_loop_keywords = {
-      fg = palatte.pink,      
+      fg = palette.pink,      
     },
 
     -- hrsh7th/nvim-cmp
