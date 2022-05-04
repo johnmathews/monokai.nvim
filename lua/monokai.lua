@@ -645,6 +645,20 @@ M.load_plugin_syntax = function(palette)
     TelescopeMatching = {
       fg = palette.aqua,
     },
+        
+    -- ansible 
+    ansible_name = {
+      fg = palatte.red,      
+    },
+    ansible_normal_keywords = {
+      fg = palatte.aqua,      
+    },
+    ansible_extra_keywords = {
+      fg = palatte.green,      
+    },
+    ansible_loop_keywords = {
+      fg = palatte.pink,      
+    },
 
     -- hrsh7th/nvim-cmp
     CmpDocumentation = { fg = palette.white, bg = palette.base1 },
