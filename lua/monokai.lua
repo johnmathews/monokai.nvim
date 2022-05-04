@@ -647,6 +647,9 @@ M.load_plugin_syntax = function(palette)
     },
         
     -- ansible 
+    yamlBlockMappingKey = {
+      fg = palette.orange,      
+    },
     ansible_name = {
       fg = palette.aqua,      
     },
@@ -660,7 +663,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.green,      
     },
     ansible_loop_keywords = {
-      fg = palette.orange,      
+      fg = palette.yellow,      
     },
 
     -- hrsh7th/nvim-cmp
