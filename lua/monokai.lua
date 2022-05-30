@@ -623,6 +623,23 @@ M.load_plugin_syntax = function(palette)
       style = 'NONE',
     },
 
+    -- Docker
+    dockerfileKeywords = {
+      fg = palette.orange,      
+    },
+    dockerfileComment = {
+      fg = palette.aqua,      
+    },
+    bashStatement = {
+      fg = palette.red,      
+    },
+    dockerfileEnv = {
+      fg = palette.yellow,      
+    },
+    dockerfileEnvWithComment = {
+      fg = palette.green,      
+    },
+
     -- Telescope
     TelescopeBorder = {
       -- fg = palette.base7,
