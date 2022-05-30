@@ -623,6 +623,20 @@ M.load_plugin_syntax = function(palette)
       style = 'NONE',
     },
 
+    -- requirements.txt
+    requirementsPackageName = {
+      fg = palette.green,      
+    },
+    requirementsVersionSpecifiers = {
+      fg = palette.orange,      
+    },
+    requirementsComment = {
+      fg = palette.aqua,      
+    },
+    requirementsCommandOption = {
+      fg = palette.red,      
+    },
+
     -- Docker
     dockerfileKeywords = {
       fg = palette.orange,      
